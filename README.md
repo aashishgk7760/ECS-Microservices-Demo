@@ -14,6 +14,16 @@ This project demonstrates a modern microservices architecture with:
 - **DataDog Integration**: Full-stack monitoring with metrics, logs, and distributed tracing
 - **Infrastructure as Code**: Everything defined in CDK TypeScript
 
+### Architecture Diagrams
+
+#### Basic Architecture
+![Basic Architecture Diagram](./diagrams/ecs_microservices_architecture.png)
+
+#### Detailed Architecture
+![Detailed Architecture Diagram](./diagrams/ecs_microservices_detailed.png)
+
+*Note: These architecture diagrams were generated using AWS MCP (Model Context Protocol) servers.*
+
 ## 📁 Project Structure
 
 ```
