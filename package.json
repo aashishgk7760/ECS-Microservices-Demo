@@ -1,0 +1,40 @@
+{
+  "name": "ecs-microservices-demo-typescript",
+  "version": "1.0.0",
+  "description": "ECS Microservices Demo with DataDog Monitoring & AWS Service Discovery using CDK TypeScript",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk",
+    "deploy": "npm run build && cdk deploy",
+    "synth": "npm run build && cdk synth",
+    "destroy": "cdk destroy"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "@types/node": "20.6.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "~5.1.6",
+    "aws-cdk": "2.1021.0"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.98.0",
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.21"
+  },
+  "keywords": [
+    "aws",
+    "cdk",
+    "typescript",
+    "ecs",
+    "fargate",
+    "microservices",
+    "datadog",
+    "service-discovery"
+  ],
+  "author": "AWS CDK TypeScript Developer",
+  "license": "MIT"
+}
